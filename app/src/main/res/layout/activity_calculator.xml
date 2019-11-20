@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculatorActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp">
+
+    <TextView
+        android:id="@+id/show_result"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/shape"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="35dp"
+        android:text="0"
+        android:textSize="45sp"
+        android:gravity="right"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/num_1"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:layout_marginRight="@dimen/calculatorMarginSize"/>
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/num_2"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="2"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@android:color/white"
+            android:layout_marginRight="@dimen/calculatorMarginSize"/>
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/num_3"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="3"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@android:color/white"
+            android:layout_marginRight="@dimen/calculatorMarginSize"/>
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/plus"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="+"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/num_4"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="4"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:layout_marginRight="@dimen/calculatorMarginSize"/>
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/num_5"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="5"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@android:color/white"
+            android:layout_marginRight="@dimen/calculatorMarginSize"/>
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/num_6"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="6"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@android:color/white"
+            android:layout_marginRight="@dimen/calculatorMarginSize"/>
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/minus"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="-"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/num_7"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="7"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:layout_marginRight="@dimen/calculatorMarginSize"/>
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/num_8"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="8"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@android:color/white"
+            android:layout_marginRight="@dimen/calculatorMarginSize"/>
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/num_9"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="9"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@android:color/white"
+            android:layout_marginRight="@dimen/calculatorMarginSize"/>
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/multi"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="x"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/num_0"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:layout_marginRight="@dimen/calculatorMarginSize"/>
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/dot"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="."
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@android:color/white"
+            android:layout_marginRight="@dimen/calculatorMarginSize"/>
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/equals"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="="
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@android:color/white"
+            android:layout_marginRight="@dimen/calculatorMarginSize"/>
+
+        <com.dd.processbutton.FlatButton
+            android:id="@+id/divide"
+            android:layout_width="@dimen/calculatorNumberSize"
+            android:layout_height="@dimen/calculatorNumberSize"
+            android:text="/"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:background="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

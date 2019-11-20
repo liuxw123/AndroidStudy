@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <integer name="calculatorNumberSize">50</integer>-->
+    <dimen name="calculatorNumberSize">75dp</dimen>
+    <dimen name="calculatorMarginSize">24dp</dimen>
+
+</resources>

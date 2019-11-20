@@ -21,5 +21,17 @@
         app:pb_colorNormal="@android:color/holo_blue_light"
         app:pb_colorPressed="@android:color/holo_blue_dark" />
 
+    <com.dd.processbutton.FlatButton
+
+        android:id="@+id/btn_cal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计算器"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        app:pb_colorNormal="@android:color/holo_blue_light"
+        app:pb_colorPressed="@android:color/holo_blue_dark"
+        android:layout_marginTop="30dp"/>
+
 
 </LinearLayout>

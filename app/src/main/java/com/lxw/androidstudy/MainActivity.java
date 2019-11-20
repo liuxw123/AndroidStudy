@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button mBtnTv;
+    private Button mBtnCal;
 
 
     @Override
@@ -19,13 +20,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         mBtnTv = findViewById(R.id.btn_tv);
-        setOnClick(mBtnTv);
+        mBtnCal = findViewById(R.id.btn_cal);
 
-
+        setOnClick();
     }
 
-    private void setOnClick(View v) {
-        v.setOnClickListener(this);
+    private void setOnClick() {
+        mBtnTv.setOnClickListener(this);
+        mBtnCal.setOnClickListener(this);
     }
 
     @Override
@@ -37,6 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_tv:
                 intent = new Intent(MainActivity.this, TextViewActivity.class);
                 break;
+            case R.id.btn_cal:
+                intent = new Intent(MainActivity.this, CalculatorActivity.class);
         }
 
         startActivity(intent);
