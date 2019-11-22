@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidComponent</string>
+    <string name="textview_lr">Left/Right</string>
+    <string name="button_l">Left</string>
+    <string name="button_r">Right</string>
+    <string name="textview_lr">Left/Right</string>
+    <string name="switch1">开关</string>
+    <string name="textview_oc">关</string>
+</resources>
