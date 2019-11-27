@@ -3,7 +3,14 @@
     <string name="textview_lr">Left/Right</string>
     <string name="button_l">Left</string>
     <string name="button_r">Right</string>
-    <string name="textview_lr">Left/Right</string>
     <string name="switch1">开关</string>
     <string name="textview_oc">关</string>
+    <string name="tv_lr">左</string>
+    <string name="tv_oc">关</string>
+    <string name="radiobutton_neu">东北大学</string>
+    <string name="radiobutton_hust">华中科技大学</string>
+    <string name="tubiao">show_tubiao</string>
+    <string name="checkbox_Java">Java</string>
+    <string name="checkbox_cpp">C++</string>
+    <string name="checkbox_python">Python</string>
 </resources>
